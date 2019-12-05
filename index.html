@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sample Logo</title>
+		<style>
+			
+			#logo-container{
+				/* Move down Image before moving up */
+				padding-top: 200px;
+				/* put padding on right & left of logo */
+				padding-left: 10%;
+				padding-right: 10%;
+			}
+			
+			#logo{
+				/* Start with a transparent PNG/image*/
+				opacity: 0;
+				/* scale to the full remaining width of the container*/
+				width: 100%;
+			}
+		</style>
+	</head>
+
+<body>
+	<div id="logo-container">
+		<!-- use an SVG or PNG with tranparent background -->
+		<!-- if PNG make sure it is wide enough -->
+		<!-- to make your own or edit a exiting PNG you can use pixlr.com -->
+		<!--** Note: pixlr.com requires the flash player preinstalled -->
+		<img id="logo" src="img/logo.png" />
+	</div>
+	<script src="js/gsap.min.js"></script>
+	<script src="js/logo.js"></script>
+</body>
+</html>
